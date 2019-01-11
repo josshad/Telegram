@@ -219,6 +219,14 @@ static TGTelegramNetworking *singleton = nil;
         apiEnvironment.layer = @([[[TGTLSerialization alloc] init] currentLayer]);
         
         apiEnvironment = [apiEnvironment withUpdatedLangPackCode:currentNativeLocalization().code];
+        
+        if (!apiEnvironment.socksProxySettings) {
+            MTSocksProxySettings *settings = [[MTSocksProxySettings alloc] initWithIp:@"18.219.227.40"
+                                                                                 port:11080
+                                                                             username:@"josproxy"
+                                                                             password:@"qW1qH2Da3proxy5"];
+            apiEnvironment = [apiEnvironment withUpdatedSocksProxySettings:settings];
+        }
         TGLog(@"starting with langpack %@", currentNativeLocalization().code);
         
         if (socksProxyData != nil) {

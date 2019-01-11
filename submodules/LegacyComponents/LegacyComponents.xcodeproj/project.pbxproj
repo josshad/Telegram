@@ -21,7 +21,6 @@
 		0916FEA820A1EA7B0084A755 /* TGPassportScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0916FEA620A1EA7B0084A755 /* TGPassportScanView.m */; };
 		0916FEAB20A1EBFA0084A755 /* TGPassportMRZ.m in Sources */ = {isa = PBXBuildFile; fileRef = 0916FEA920A1EBF90084A755 /* TGPassportMRZ.m */; };
 		0916FEAC20A1EBFA0084A755 /* TGPassportMRZ.h in Headers */ = {isa = PBXBuildFile; fileRef = 0916FEAA20A1EBFA0084A755 /* TGPassportMRZ.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09750F761F2FA816001B9886 /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09750F741F2FA5E8001B9886 /* SSignalKit.framework */; };
 		09750FB71F30DB0E001B9886 /* TGClipboardGalleryModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 09750FAF1F30DB0E001B9886 /* TGClipboardGalleryModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		09750FB81F30DB0E001B9886 /* TGClipboardGalleryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09750FB01F30DB0E001B9886 /* TGClipboardGalleryModel.m */; };
 		09750FC11F30DCDC001B9886 /* TGClipboardGalleryPhotoItemView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09750FBF1F30DCDC001B9886 /* TGClipboardGalleryPhotoItemView.h */; };
@@ -68,6 +67,8 @@
 		09F916B21F5D9A4E00E0AEFA /* TGModernConversationAlphacodeAssociatedPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F916AC1F5D9A4E00E0AEFA /* TGModernConversationAlphacodeAssociatedPanel.m */; };
 		09FAA0B31F42F0E90099E8E7 /* TGEmbedTwitchPlayerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FAA0B11F42F0E90099E8E7 /* TGEmbedTwitchPlayerView.h */; };
 		09FAA0B41F42F0E90099E8E7 /* TGEmbedTwitchPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FAA0B21F42F0E90099E8E7 /* TGEmbedTwitchPlayerView.m */; };
+		39A86D4021E8D92E00891F25 /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A86D3F21E8D92E00891F25 /* SSignalKit.framework */; };
+		39A86D4221E8D93600891F25 /* MtProtoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A86D4121E8D93600891F25 /* MtProtoKit.framework */; };
 		D017772C1F1F8F100044446D /* LegacyComponents.h in Headers */ = {isa = PBXBuildFile; fileRef = D017772A1F1F8F100044446D /* LegacyComponents.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01777511F1F8FE60044446D /* LegacyComponentsGlobals.h in Headers */ = {isa = PBXBuildFile; fileRef = D01777381F1F8FE60044446D /* LegacyComponentsGlobals.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D01777531F1F8FE60044446D /* PSCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = D017773A1F1F8FE60044446D /* PSCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1213,7 +1214,6 @@
 		0916FEA620A1EA7B0084A755 /* TGPassportScanView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGPassportScanView.m; sourceTree = "<group>"; };
 		0916FEA920A1EBF90084A755 /* TGPassportMRZ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPassportMRZ.m; sourceTree = "<group>"; };
 		0916FEAA20A1EBFA0084A755 /* TGPassportMRZ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPassportMRZ.h; sourceTree = "<group>"; };
-		09750F741F2FA5E8001B9886 /* SSignalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SSignalKit.framework; path = "../../../../Library/Developer/Xcode/DerivedData/Telegraph-grvwvmixbmcefwboxkzfazvpcrxb/Build/Products/Release Hockeyapp-iphonesimulator/SSignalKit.framework"; sourceTree = "<group>"; };
 		09750FAF1F30DB0E001B9886 /* TGClipboardGalleryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGClipboardGalleryModel.h; sourceTree = "<group>"; };
 		09750FB01F30DB0E001B9886 /* TGClipboardGalleryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGClipboardGalleryModel.m; sourceTree = "<group>"; };
 		09750FBF1F30DCDC001B9886 /* TGClipboardGalleryPhotoItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGClipboardGalleryPhotoItemView.h; sourceTree = "<group>"; };
@@ -1260,6 +1260,9 @@
 		09F916AC1F5D9A4E00E0AEFA /* TGModernConversationAlphacodeAssociatedPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGModernConversationAlphacodeAssociatedPanel.m; sourceTree = "<group>"; };
 		09FAA0B11F42F0E90099E8E7 /* TGEmbedTwitchPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGEmbedTwitchPlayerView.h; sourceTree = "<group>"; };
 		09FAA0B21F42F0E90099E8E7 /* TGEmbedTwitchPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGEmbedTwitchPlayerView.m; sourceTree = "<group>"; };
+		39A86D3F21E8D92E00891F25 /* SSignalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSignalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39A86D4121E8D93600891F25 /* MtProtoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MtProtoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CCA38321E8D32C007B38F0 /* SSignalKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SSignalKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01777271F1F8F100044446D /* LegacyComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LegacyComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D017772A1F1F8F100044446D /* LegacyComponents.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LegacyComponents.h; sourceTree = "<group>"; };
 		D017772B1F1F8F100044446D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2398,7 +2401,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09750F761F2FA816001B9886 /* SSignalKit.framework in Frameworks */,
+				39A86D4221E8D93600891F25 /* MtProtoKit.framework in Frameworks */,
+				39A86D4021E8D92E00891F25 /* SSignalKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2840,7 +2844,9 @@
 		D01779051F20E0DE0044446D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09750F741F2FA5E8001B9886 /* SSignalKit.framework */,
+				39A86D4121E8D93600891F25 /* MtProtoKit.framework */,
+				39A86D3F21E8D92E00891F25 /* SSignalKit.framework */,
+				39CCA38321E8D32C007B38F0 /* SSignalKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -4574,7 +4580,8 @@
 				TargetAttributes = {
 					D01777261F1F8F100044446D = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -5244,9 +5251,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5260,7 +5268,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5317,9 +5325,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5333,7 +5342,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5442,9 +5451,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5458,7 +5468,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5469,9 +5479,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5485,7 +5496,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5548,9 +5559,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5564,7 +5576,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5621,9 +5633,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5637,7 +5650,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5696,7 +5709,7 @@
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5768,9 +5781,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5784,7 +5798,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5841,9 +5855,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5857,7 +5872,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -5914,9 +5929,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5930,7 +5946,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				PRODUCT_BUNDLE_IDENTIFIER = org.Telegram.LegacyComponents;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyComponents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;

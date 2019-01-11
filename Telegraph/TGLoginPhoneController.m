@@ -36,6 +36,8 @@
 
 #import "TGAccountSignals.h"
 
+#import "TGChatSettingsController.h"
+
 @interface TGLoginPhoneController () <UITextFieldDelegate, MFMailComposeViewControllerDelegate>
 {
     UILabel *_titleLabel;
@@ -73,6 +75,8 @@
 @property (nonatomic, strong) UIAlertView *currentAlert;
 
 @property (nonatomic, strong) UIView *shadeView;
+
+@property (nonatomic) UIButton *settingsButton;
 
 @end
 
@@ -172,6 +176,12 @@
     [_countryButton addTarget:self action:@selector(countryButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     _countryButton.frame = CGRectMake(0.0f, [TGViewController isWidescreen] ? 131.0f : 90.0f, screenSize.width, rawCountryImage.size.height);
     [self.view addSubview:_countryButton];
+    
+    
+    _settingsButton.frame = CGRectMake(0, 70, 100, 20);
+    [_settingsButton setTitle:@"Settings" forState:UIControlStateNormal];
+    [_settingsButton addTarget:self action:@selector(settingsPressed:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:_settingsButton];
     
     UIImage *rawInputImage = TGImageNamed(@"ModernAuthPhoneBackground.png");
     _inputBackgroundView = [[UIImageView alloc] initWithImage:[rawInputImage stretchableImageWithLeftCapWidth:(int)(rawInputImage.size.width / 2) topCapHeight:(int)(rawInputImage.size.height / 2)]];

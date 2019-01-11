@@ -213,14 +213,14 @@
         {
             conversation = [TGDatabaseInstance() loadChannels:@[@(conversationId)]][@(conversationId)];
             if (conversation != nil) {
-                if (conversation.hasExplicitContent) {
-                    if (!navigationController)
-                        [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
-                    
-                    [TGCustomAlertView presentAlertWithTitle:TGLocalized(@"ExplicitContent.AlertTitle") message:conversation.restrictionReason.length == 0 ? TGLocalized(@"ExplicitContent.AlertChannel") : [self explicitContentReason:conversation.restrictionReason] cancelButtonTitle:TGLocalized(@"Common.OK") okButtonTitle:nil completionBlock:nil];
-                    
-                    return;
-                }
+//                if (conversation.hasExplicitContent) {
+//                    if (!navigationController)
+//                        [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
+//
+//                    [[[TGAlertView alloc] initWithTitle:TGLocalized(@"ExplicitContent.AlertTitle") message:conversation.restrictionReason.length == 0 ? TGLocalized(@"ExplicitContent.AlertChannel") : [self explicitContentReason:conversation.restrictionReason] cancelButtonTitle:TGLocalized(@"Common.OK") okButtonTitle:nil completionBlock:nil] show];
+//
+//                    return;
+//                }
                 TGChannelConversationCompanion *companion = [[TGChannelConversationCompanion alloc] initWithConversation:conversation userActivities:[TGTelegraphInstance typingUserActivitiesInConversationFromMainThread:conversationId]];
                 if (atMessage != nil)
                     [companion setPreferredInitialMessagePositioning:[atMessage[@"mid"] intValue] peerId:[atMessage[@"peerId"] longLongValue] groupedSingle:[atMessage[@"groupedSingle"] boolValue] pipLocation:atMessage[@"pipLocation"]];
@@ -258,6 +258,7 @@
         else
         {
             TGUser *user = [TGDatabaseInstance() loadUser:(int32_t)conversationId];
+<<<<<<< HEAD
             if (user.hasExplicitContent) {
                 if (!navigationController)
                     [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
@@ -266,6 +267,16 @@
                 
                 return;
             }
+=======
+//            if (user.hasExplicitContent) {
+//                if (!navigationController)
+//                    [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
+//
+//                [[[TGAlertView alloc] initWithTitle:TGLocalized(@"ExplicitContent.AlertTitle") message:user.restrictionReason.length == 0 ? TGLocalized(@"ExplicitContent.AlertUser") : [self explicitContentReason:user.restrictionReason] cancelButtonTitle:TGLocalized(@"Common.OK") okButtonTitle:nil completionBlock:nil] show];
+//
+//                return;
+//            }
+>>>>>>> WIP
             
             TGConversation *conversation = [TGDatabaseInstance() loadConversationWithId:conversationId];
             if (conversation == nil) {
@@ -481,6 +492,7 @@
     {
         conversation = [TGDatabaseInstance() loadChannels:@[@(conversationId)]][@(conversationId)];
         if (conversation != nil) {
+<<<<<<< HEAD
             if (conversation.hasExplicitContent) {
                 [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
                 
@@ -488,6 +500,15 @@
                 
                 return nil;
             }
+=======
+//            if (conversation.hasExplicitContent) {
+//                [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
+//
+//                [[[TGAlertView alloc] initWithTitle:TGLocalized(@"ExplicitContent.AlertTitle") message:conversation.restrictionReason.length == 0 ? TGLocalized(@"ExplicitContent.AlertChannel") : [self explicitContentReason:conversation.restrictionReason] cancelButtonTitle:TGLocalized(@"Common.OK") okButtonTitle:nil completionBlock:nil] show];
+//
+//                return nil;
+//            }
+>>>>>>> WIP
             
             TGChannelConversationCompanion *companion = [[TGChannelConversationCompanion alloc] initWithConversation:conversation userActivities:nil];
             companion.previewMode = preview;
@@ -529,6 +550,7 @@
     }
     else
     {
+<<<<<<< HEAD
         TGUser *user = [TGDatabaseInstance() loadUser:(int32_t)conversationId];
         if (user.hasExplicitContent) {
             [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
@@ -537,6 +559,16 @@
             
             return nil;
         }
+=======
+//        TGUser *user = [TGDatabaseInstance() loadUser:(int32_t)conversationId];
+//        if (user.hasExplicitContent) {
+//            [TGAppDelegateInstance.rootController.dialogListController selectConversationWithId:0];
+//
+//            [[[TGAlertView alloc] initWithTitle:TGLocalized(@"ExplicitContent.AlertTitle") message:user.restrictionReason.length == 0 ? TGLocalized(@"ExplicitContent.AlertUser") : [self explicitContentReason:user.restrictionReason] cancelButtonTitle:TGLocalized(@"Common.OK") okButtonTitle:nil completionBlock:nil] show];
+//
+//            return nil;
+//        }
+>>>>>>> WIP
         
         TGConversation *conversation = [TGDatabaseInstance() loadConversationWithId:conversationId];
         if (conversation == nil) {
