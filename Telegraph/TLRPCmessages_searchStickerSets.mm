@@ -1,6 +1,6 @@
 #import "TLRPCmessages_searchStickerSets.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 @implementation TLRPCmessages_searchStickerSets

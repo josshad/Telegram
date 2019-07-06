@@ -1,7 +1,7 @@
 #import "TGMessageSearchSignals.h"
 
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGTelegraph.h"
 
 #import "TGMessage+Telegraph.h"

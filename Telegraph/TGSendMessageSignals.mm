@@ -9,7 +9,7 @@
 
 #import "TGStickersSignals.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGModernSendCommonMessageActor.h"
 

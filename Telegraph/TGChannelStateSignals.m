@@ -5,7 +5,7 @@
 #import "TGDatabase.h"
 #import "TGTelegramNetworking.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLUpdates_ChannelDifference_manual.h"
 
 #import "TGConversation+Telegraph.h"

@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TLRPCmessages_search : TLMetaRpc
 

@@ -12,7 +12,7 @@
 
 #import "TGTelegraphProtocols.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TGTimelineUploadPhotoRequestBuilder : TGActor <ASWatcher>
 

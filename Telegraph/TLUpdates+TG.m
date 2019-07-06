@@ -1,6 +1,6 @@
 #import "TLUpdates+TG.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TLUpdates$modernUpdateShortChatMessage.h"
 #import "TLUpdates$modernUpdateShortMessage.h"

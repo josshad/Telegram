@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #ifdef __cplusplus
 struct TGServerSalt;

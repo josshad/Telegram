@@ -11,7 +11,7 @@
 
 #import <MTProtoKit/MTProtoKit.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TGCallManager () {
     SQueue *_queue;

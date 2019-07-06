@@ -1,6 +1,6 @@
 #import "TLRPCaccount_getAuthorizationForm.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 

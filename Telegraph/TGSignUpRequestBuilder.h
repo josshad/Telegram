@@ -8,7 +8,7 @@
 
 #import <LegacyComponents/ASActor.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <LegacyComponents/ASWatcher.h>
 

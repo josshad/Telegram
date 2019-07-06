@@ -10,7 +10,7 @@
 #import "TGAppDelegate.h"
 
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGDocumentMediaAttachment+Telegraph.h"
 #import "TGMediaOriginInfo+Telegraph.h"

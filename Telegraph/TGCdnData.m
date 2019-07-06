@@ -1,6 +1,6 @@
 #import "TGCdnData.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @implementation TGCdnData
     

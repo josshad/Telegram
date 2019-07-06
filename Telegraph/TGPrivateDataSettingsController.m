@@ -6,7 +6,7 @@
 #import "TGAppDelegate.h"
 #import "TGDatabase.h"
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGRecentPeersSignals.h"
 #import "TGRemoveContactFutureAction.h"

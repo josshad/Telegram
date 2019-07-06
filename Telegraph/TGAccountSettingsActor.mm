@@ -3,7 +3,7 @@
 #import <LegacyComponents/ActionStage.h>
 #import "TGTelegramNetworking.h"
 #import <MTProtoKit/MTRequest.h>
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGAccountSettings.h"
 

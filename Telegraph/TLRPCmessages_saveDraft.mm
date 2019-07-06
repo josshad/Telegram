@@ -1,7 +1,7 @@
 #import "TLRPCmessages_saveDraft.h"
 
 #import "TLMetaClassStore.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 //messages.saveDraft flags:# no_webpage:flags.1?true reply_to_msg_id:flags.0?int peer:InputPeer message:string entities:flags.3?Vector<MessageEntity> = Bool;
 

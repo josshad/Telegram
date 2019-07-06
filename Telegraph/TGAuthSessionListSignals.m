@@ -3,7 +3,7 @@
 #import "TGTelegramNetworking.h"
 #import "TGUserDataRequestBuilder.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGUser+Telegraph.h"
 

@@ -8,7 +8,7 @@
 
 #import "TGTLSerialization.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 #import "TLMetaSchemeData.h"
 

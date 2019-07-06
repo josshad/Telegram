@@ -6,7 +6,7 @@
 
 #import "TGTelegraph.h"
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <LegacyComponents/TGStringUtils.h>
 

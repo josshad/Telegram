@@ -20,7 +20,7 @@
 
 #import "TGTelegramNetworking.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TLDcOption$modernDcOption.h"
 

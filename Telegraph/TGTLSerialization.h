@@ -8,7 +8,7 @@
 
 #import <MTProtoKit/MTSerialization.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TGTLSerialization : NSObject <MTSerialization>
 

@@ -7,7 +7,7 @@
 #import <MTProtoKit/MTRequest.h>
 #import <MTProtoKit/MTRpcError.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGSendCodeRequestBuilder.h"
 

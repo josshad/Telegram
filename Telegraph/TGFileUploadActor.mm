@@ -12,7 +12,7 @@
 
 #import "TGLiveUploadActor.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <Security/Security.h>
 #import <CommonCrypto/CommonCrypto.h>

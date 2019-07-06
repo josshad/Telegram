@@ -8,7 +8,7 @@
 
 #import "TLObject.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TLDestroySessionsRes_manual : TLDestroySessionsRes$destroy_sessions_res
 

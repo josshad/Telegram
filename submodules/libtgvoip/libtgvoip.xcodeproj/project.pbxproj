@@ -39,9 +39,9 @@
 		692AB9001E6759DD00706ACC /* TGLogWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 692AB8C51E6759DD00706ACC /* TGLogWrapper.m */; };
 		692AB9011E6759DD00706ACC /* threading.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AB8C61E6759DD00706ACC /* threading.h */; };
 		692AB9021E6759DD00706ACC /* VoIPController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692AB8C71E6759DD00706ACC /* VoIPController.cpp */; };
-		692AB9031E6759DD00706ACC /* VoIPController.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AB8C81E6759DD00706ACC /* VoIPController.h */; };
+		692AB9031E6759DD00706ACC /* VoIPController.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AB8C81E6759DD00706ACC /* VoIPController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		692AB9041E6759DD00706ACC /* VoIPServerConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 692AB8C91E6759DD00706ACC /* VoIPServerConfig.cpp */; };
-		692AB9051E6759DD00706ACC /* VoIPServerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AB8CA1E6759DD00706ACC /* VoIPServerConfig.h */; };
+		692AB9051E6759DD00706ACC /* VoIPServerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 692AB8CA1E6759DD00706ACC /* VoIPServerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		692AB91F1E675F7000706ACC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692AB91C1E675F7000706ACC /* AudioToolbox.framework */; };
 		692AB9201E675F7000706ACC /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692AB91D1E675F7000706ACC /* AudioUnit.framework */; };
 		692AB9211E675F7000706ACC /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692AB91E1E675F7000706ACC /* CoreAudio.framework */; };
@@ -869,6 +869,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				692AB9031E6759DD00706ACC /* VoIPController.h in Headers */,
+				692AB9051E6759DD00706ACC /* VoIPServerConfig.h in Headers */,
 				69986178209526D400B68BEC /* Buffers.h in Headers */,
 				692AB9011E6759DD00706ACC /* threading.h in Headers */,
 				692AB8EA1E6759DD00706ACC /* MediaStreamItf.h in Headers */,
@@ -894,11 +896,9 @@
 				69A6DDAE1E95EC7700000E69 /* complex_fft_tables.h in Headers */,
 				692AB8FF1E6759DD00706ACC /* TGLogWrapper.h in Headers */,
 				69791A4E1EE8262400BB85FB /* NetworkSocketPosix.h in Headers */,
-				692AB9051E6759DD00706ACC /* VoIPServerConfig.h in Headers */,
 				6998617C2095292A00B68BEC /* PacketReassembler.h in Headers */,
 				69A6DDF31E95EC7700000E69 /* defines.h in Headers */,
 				69A6DD9D1E95EC7700000E69 /* sanitizer.h in Headers */,
-				692AB9031E6759DD00706ACC /* VoIPController.h in Headers */,
 				69A6DDC11E95EC7700000E69 /* spl_inl_armv7.h in Headers */,
 				69A6DE031E95EC7800000E69 /* three_band_filter_bank.h in Headers */,
 				69A6DDFB1E95EC7700000E69 /* nsx_core.h in Headers */,

@@ -1,7 +1,7 @@
 #ifndef __PICTURE_H
 #define __PICTURE_H
 
-#include <ogg/ogg.h>
+# include "ogg.h"
 
 typedef enum{
   PIC_FORMAT_JPEG,

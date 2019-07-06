@@ -2,7 +2,7 @@
 
 #import <LegacyComponents/ActionStage.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGTelegramNetworking.h"
 
 #import "TGWebPageMediaAttachment+Telegraph.h"

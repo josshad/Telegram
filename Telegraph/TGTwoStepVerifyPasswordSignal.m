@@ -2,7 +2,7 @@
 
 #import "TGTelegramNetworking.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGTwoStepConfigSignal.h"
 #import "TGTwoStepUtils.h"

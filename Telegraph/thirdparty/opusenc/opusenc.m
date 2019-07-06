@@ -3,7 +3,7 @@
 #include "opus.h"
 #include "opus_multistream.h"
 
-#include <ogg/ogg.h>
+# include "ogg.h"
 
 #include "opus_header.h"
 

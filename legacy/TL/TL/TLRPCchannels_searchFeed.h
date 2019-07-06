@@ -1,6 +1,6 @@
 #import "TLMetaRpc.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TLRPCchannels_searchFeed : TLMetaRpc
 

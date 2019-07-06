@@ -1,5 +1,5 @@
 #import "TLMetaScheme.h"
-#import "../TLMetaClassStore.h"
+#import "TLMetaClassStore.h"
 
 void TLRegisterClasses()
 {

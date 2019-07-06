@@ -12,7 +12,7 @@
 
 #import <LegacyComponents/ActionStage.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @class TGWebPageMediaAttachment;
 

@@ -1,6 +1,6 @@
 #import "TLPayments_sendPaymentForm.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 @implementation TLPayments_sendPaymentForm

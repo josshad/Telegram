@@ -4,7 +4,7 @@
 #import "TGTelegramNetworking.h"
 #import <LegacyComponents/TGProgressWindow.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <MTProtoKit/MTRequest.h>
 

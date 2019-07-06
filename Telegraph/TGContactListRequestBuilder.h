@@ -10,7 +10,7 @@
 
 #import <LegacyComponents/LegacyComponents.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGTelegraphProtocols.h"
 

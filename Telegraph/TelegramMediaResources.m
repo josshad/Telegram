@@ -3,7 +3,7 @@
 #import <LegacyComponents/TGStringUtils.h>
 #import <LegacyComponents/TGMediaOriginInfo.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface CloudFileMediaResourceId : NSObject <MediaResourceId>
 

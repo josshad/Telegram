@@ -14,7 +14,7 @@
 #import "TGNetworkWorker.h"
 
 #import <MTProtoKit/MTRequest.h>
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <CommonCrypto/CommonDigest.h>
 

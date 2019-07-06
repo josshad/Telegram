@@ -8,7 +8,7 @@
 
 #import "TGMultipartFileDownloadActor.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <LegacyComponents/ActionStage.h>
 

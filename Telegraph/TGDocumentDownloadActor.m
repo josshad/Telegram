@@ -5,7 +5,7 @@
 #import <LegacyComponents/ActionStage.h>
 #import <LegacyComponents/ASQueue.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <LegacyComponents/TGRemoteImageView.h>
 

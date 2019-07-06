@@ -1,6 +1,6 @@
 #import "TGActor.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TGUpdateMediaHistoryActor : TGActor
 

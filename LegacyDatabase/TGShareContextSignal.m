@@ -2,7 +2,13 @@
 
 #import "TGShareMtSerialization.h"
 
-#import <MTProtoKitDynamic/MTProtoKitDynamic.h>
+#if defined(MtProtoKitDynamicFramework)
+#   import <MTProtoKitDynamic/MTProtoKitDynamic.h>
+#elif defined(MtProtoKitMacFramework)
+#   import <MTProtoKitMac/MtProtoKitMac.h>
+#else
+#   import <MTProtoKit/MTProtoKit.h>
+#endif
 
 #import <CommonCrypto/CommonKeyDerivation.h>
 #import <CommonCrypto/CommonCryptoError.h>

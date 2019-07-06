@@ -5,7 +5,7 @@
 #import "TGTelegraph.h"
 #import "TGDatabase.h"
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGUserDataRequestBuilder.h"
 #import "TGConversation+Telegraph.h"
 #import "TGMessage+Telegraph.h"

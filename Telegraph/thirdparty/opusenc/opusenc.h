@@ -2,7 +2,7 @@
 #define __OPUSENC_H
 
 #include "opus_types.h"
-#include <ogg/ogg.h>
+# include "ogg.h"
 
 #import "TGDataItem.h"
 
