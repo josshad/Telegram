@@ -1,6 +1,6 @@
 #import "TLRPCmessages_forwardMessages.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 @implementation TLRPCmessages_forwardMessages$messages_forwardMessages

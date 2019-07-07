@@ -1,6 +1,6 @@
 #import "TLRPCmessages_getDialogs.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 

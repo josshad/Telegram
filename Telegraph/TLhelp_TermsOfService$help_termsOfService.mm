@@ -1,6 +1,6 @@
 #import "TLhelp_TermsOfService$help_termsOfService.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 @implementation TLhelp_TermsOfService$help_termsOfService

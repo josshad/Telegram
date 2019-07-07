@@ -1,6 +1,6 @@
 #import "TGUpdateMessageService.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import <MTProtoKit/MTIncomingMessage.h>
 
 #import <MTProtoKit/MTProto.h>

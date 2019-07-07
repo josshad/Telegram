@@ -1,4 +1,4 @@
-#import "TL/TLInvoice.h"
+#import "TLInvoice.h"
 
 @interface TLInvoice$invoice : TLInvoice$invoiceMeta
 

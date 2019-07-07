@@ -4,7 +4,7 @@
 #import <MTProtoKit/MTRequest.h>
 
 #import "TGDatabase.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <LegacyComponents/ActionStage.h>
 

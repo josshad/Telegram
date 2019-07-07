@@ -1,7 +1,7 @@
 #import "TLRPCmessages_getBotCallbackAnswer.h"
 
 #import "TLMetaClassStore.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 //messages.getBotCallbackAnswer flags:# game:flags.1?true peer:InputPeer msg_id:int data:flags.0?bytes = messages.BotCallbackAnswer;
 

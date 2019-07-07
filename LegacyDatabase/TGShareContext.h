@@ -1,8 +1,12 @@
 #import <Foundation/Foundation.h>
 
-#import <MTProtoKitDynamic/MTContext.h>
-#import <MTProtoKitDynamic/MTProto.h>
-#import <MTProtoKitDynamic/MTRequestMessageService.h>
+#if defined(MtProtoKitDynamicFramework)
+#   import <MTProtoKitDynamic/MTProtoKitDynamic.h>
+#elif defined(MtProtoKitMacFramework)
+#   import <MTProtoKitMac/MtProtoKitMac.h>
+#else
+#   import <MTProtoKit/MTProtoKit.h>
+#endif
 #import <SSignalKit/SSignalKit.h>
 
 #import <SSignalKit/SSignalKit.h>

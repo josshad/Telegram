@@ -1,6 +1,6 @@
 #import "TLRPCchannels_setFeedBroadcasts.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 @implementation TLRPCchannels_setFeedBroadcasts

@@ -28,7 +28,7 @@
 #ifndef OPUS_HEADER_H
 #define OPUS_HEADER_H
 
-#include <ogg/ogg.h>
+# include "ogg.h"
 
 typedef struct {
    int version;

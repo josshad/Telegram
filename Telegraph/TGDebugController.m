@@ -9,7 +9,7 @@
 
 #import "TGForwardTargetController.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import <LegacyComponents/TGProgressWindow.h>
 #import "TGCustomAlertView.h"

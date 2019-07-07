@@ -1,7 +1,13 @@
 #import "TGRemoteHttpLocationSignal.h"
 
 //#import <thirdparty/AFNetworking/AFHTTPRequestOperation.h>
-#import <MTProtoKitDynamic/MTProtoKitDynamic.h>
+#if defined(MtProtoKitDynamicFramework)
+#   import <MTProtoKitDynamic/MTProtoKitDynamic.h>
+#elif defined(MtProtoKitMacFramework)
+#   import <MTProtoKitMac/MtProtoKitMac.h>
+#else
+#   import <MTProtoKit/MTProtoKit.h>
+#endif
 
 @implementation TGRemoteHttpLocationSignal
 

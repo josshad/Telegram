@@ -10,7 +10,7 @@
 #import "TGTelegramNetworking.h"
 #import "TGTelegraph.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import <MTProtoKit/MTRequest.h>
 
 #import "TGConversation+Telegraph.h"

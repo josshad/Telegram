@@ -1,6 +1,6 @@
 #import "TLRPCchannels_getFeed.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 #import "TLmessages_FeedMessages.h"

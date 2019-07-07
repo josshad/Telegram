@@ -8,7 +8,7 @@
 
 #import <LegacyComponents/LegacyComponents.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "SecretLayer23.h"
 #import "SecretLayer46.h"

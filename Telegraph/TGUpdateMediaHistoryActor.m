@@ -7,7 +7,7 @@
 
 #import "TGUserDataRequestBuilder.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGMessage+Telegraph.h"
 
 @interface TGUpdateMediaHistoryActor ()

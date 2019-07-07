@@ -10,7 +10,7 @@
 
 #import <LegacyComponents/ActionStage.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGTelegraph.h"
 
 #import "TGImageInfo+Telegraph.h"

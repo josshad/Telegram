@@ -1,6 +1,6 @@
 #import "TLRPCmessages_sendMessage_manual.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 @implementation TLRPCmessages_sendMessage_manual

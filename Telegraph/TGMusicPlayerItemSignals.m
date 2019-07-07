@@ -18,7 +18,7 @@
 
 #import "TGMediaStoreContext.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGTelegramNetworking.h"
 

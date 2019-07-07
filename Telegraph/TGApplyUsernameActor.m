@@ -6,7 +6,7 @@
 
 #import <MTProtoKit/MTRequest.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGUserDataRequestBuilder.h"
 

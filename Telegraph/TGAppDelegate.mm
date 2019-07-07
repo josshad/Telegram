@@ -162,6 +162,8 @@
 
 #import <CloudKit/CloudKit.h>
 #import "TGICloudEmergencyDataSignals.h"
+#import <Fabric/Fabric.h>
+#import <Crashlytics/Crashlytics.h>
 
 NSString *TGDeviceProximityStateChangedNotification = @"TGDeviceProximityStateChangedNotification";
 
@@ -383,6 +385,7 @@ static unsigned int overrideIndexAbove(__unused id self, __unused SEL _cmd)
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {    
+    [Fabric with:@[[Crashlytics class]]];
     //PGTick;
     if (iosMajorVersion() >= 9) {
         if ([effectiveLocalization().code isEqualToString:@"ar"]) {
@@ -3572,9 +3575,6 @@ static unsigned int overrideIndexAbove(__unused id self, __unused SEL _cmd)
                         if (okButtonPressed)
                         {
                             NSNumber *appStoreId = @686449807;
-#ifdef TELEGRAM_APPSTORE_ID
-                            appStoreId = TELEGRAM_APPSTORE_ID;
-#endif
                             NSURL *appStoreURL = [NSURL URLWithString:[NSString stringWithFormat:@"itms-apps://itunes.apple.com/app/id%@", appStoreId]];
                             [[UIApplication sharedApplication] openURL:appStoreURL];
                         }

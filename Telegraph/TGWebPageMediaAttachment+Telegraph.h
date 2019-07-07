@@ -1,6 +1,6 @@
 #import <LegacyComponents/LegacyComponents.h>
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @interface TGWebPageMediaAttachment (Telegraph)
 

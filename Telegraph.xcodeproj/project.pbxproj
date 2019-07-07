@@ -457,7 +457,6 @@
 		098E68FB2063B806001F5150 /* TGPassportSetupPasswordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 098E68F92063B806001F5150 /* TGPassportSetupPasswordView.h */; };
 		098E68FC2063B806001F5150 /* TGPassportSetupPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 098E68FA2063B806001F5150 /* TGPassportSetupPasswordView.m */; };
 		099120C11EEAA63400F1366E /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6869F8C81D96D33C00D5AA92 /* NotificationCenter.framework */; };
-		099120CC1EEAA63400F1366E /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 099120C01EEAA63400F1366E /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		099120F61EEAA6AF00F1366E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099120D31EEAA6AF00F1366E /* InfoPlist.strings */; };
 		099120F71EEAA6AF00F1366E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099120D61EEAA6AF00F1366E /* InfoPlist.strings */; };
 		099120F81EEAA6AF00F1366E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 099120D91EEAA6AF00F1366E /* InfoPlist.strings */; };
@@ -574,7 +573,6 @@
 		09B76D4C20214939009835B5 /* anim_delete.json in Resources */ = {isa = PBXBuildFile; fileRef = 09B76D4720214937009835B5 /* anim_delete.json */; };
 		09B76D4D20214939009835B5 /* anim_unpin.json in Resources */ = {isa = PBXBuildFile; fileRef = 09B76D4820214937009835B5 /* anim_unpin.json */; };
 		09B76D4E20214939009835B5 /* anim_mute.json in Resources */ = {isa = PBXBuildFile; fileRef = 09B76D4920214938009835B5 /* anim_mute.json */; };
-		09B76D4F202149D8009835B5 /* libLottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B76D44202133B0009835B5 /* libLottie.a */; };
 		09B76D552023E3D8009835B5 /* TGSegmentedTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B76D532023E3D8009835B5 /* TGSegmentedTitleView.h */; };
 		09B76D562023E3D8009835B5 /* TGSegmentedTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B76D542023E3D8009835B5 /* TGSegmentedTitleView.m */; };
 		09B81BFF1F9908ED00B90FCA /* TGEditProfileController.h in Headers */ = {isa = PBXBuildFile; fileRef = 09B81BFD1F9908ED00B90FCA /* TGEditProfileController.h */; };
@@ -771,6 +769,17 @@
 		09FCB6921FB2E98C0007D2CA /* PasswordPlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */; };
 		09FCB6951FB2FAE80007D2CA /* PasscodePlaceholderIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */; };
 		09FCB6961FB2FAE80007D2CA /* PasscodePlaceholderIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */; };
+		390AA3CC22464FD80007649F /* MtProtoKitDynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B301C7C86B200DD5E83 /* MtProtoKitDynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3912EB6A22D01D2800C5F734 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3912EB6822D01D2600C5F734 /* Crashlytics.framework */; };
+		3912EB6B22D01D2800C5F734 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3912EB6922D01D2700C5F734 /* Fabric.framework */; };
+		395876DA2243A16500FDDD8A /* LegacyDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; };
+		395876DB2243A16500FDDD8A /* LegacyDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		395876DD2243A45200FDDD8A /* LegacyComponents.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D01777371F1F8FA90044446D /* LegacyComponents.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		395876E02243A77B00FDDD8A /* libtgvoip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 692AB87C1E67591700706ACC /* libtgvoip.framework */; };
+		395876E12243A77B00FDDD8A /* libtgvoip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 692AB87C1E67591700706ACC /* libtgvoip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39A86D5A21E8F4FF00891F25 /* MtProtoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B2C1C7C86B200DD5E83 /* MtProtoKit.framework */; };
+		39A86D5F21E8F50800891F25 /* SSignalKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D08763251A83963900632240 /* SSignalKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39A86D6221E8F67200891F25 /* LegacyDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; };
 		6801D6681BEF6CC600533783 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08805C9156E8F5100311537 /* AddressBook.framework */; };
 		6804D8AE1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6804D8AC1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.h */; };
 		6804D8AF1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6804D8AD1D1D624E0082E71F /* TGGifGalleryAddAccessoryView.m */; };
@@ -962,7 +971,6 @@
 		686ED3211BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686ED31E1BF3CBB8001F2F96 /* StickerPanelPopupMiddleDark@2x.png */; };
 		686ED3221BF3CBB8001F2F96 /* StickerPanelPopupRightDark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 686ED31F1BF3CBB8001F2F96 /* StickerPanelPopupRightDark@2x.png */; };
 		68744C1A1BB1A9F700FE6542 /* watchkitapp Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 68744C191BB1A9F700FE6542 /* watchkitapp Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		68744C2E1BB1A9F800FE6542 /* watchkitapp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 68744C0D1BB1A9F700FE6542 /* watchkitapp.app */; };
 		6877709D1E04300000331194 /* TGCallSettingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6877709B1E04300000331194 /* TGCallSettingsController.h */; };
 		6877709E1E04300000331194 /* TGCallSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6877709C1E04300000331194 /* TGCallSettingsController.m */; };
 		687770B81E06229100331194 /* TGCallDataSettingsController.h in Headers */ = {isa = PBXBuildFile; fileRef = 687770B61E06229100331194 /* TGCallDataSettingsController.h */; };
@@ -3241,10 +3249,8 @@
 		D020B75418B4F4310026DB24 /* TGSecretModernConversationAccessoryTimerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D020B75318B4F4310026DB24 /* TGSecretModernConversationAccessoryTimerView.m */; };
 		D020B75C18B4F6740026DB24 /* ModernConversationSecretAccessoryTimer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D020B75B18B4F6740026DB24 /* ModernConversationSecretAccessoryTimer@2x.png */; };
 		D020FAE11D99466A00F279AA /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = D020FAE01D99466A00F279AA /* IntentHandler.m */; };
-		D020FAE51D99466A00F279AA /* SiriIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D020FADD1D99466A00F279AA /* SiriIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D020FB021D995E9000F279AA /* MtProtoKitDynamic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B301C7C86B200DD5E83 /* MtProtoKitDynamic.framework */; };
 		D020FB0E1D99637200F279AA /* LegacyDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB0C1D99637200F279AA /* LegacyDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D020FB121D99637200F279AA /* LegacyDatabase.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D020FB0A1D99637100F279AA /* LegacyDatabase.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D020FB1A1D9963D600F279AA /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = D020FB171D9963D600F279AA /* sqlite3.c */; };
 		D020FB1B1D9963D600F279AA /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB181D9963D600F279AA /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D020FB1C1D9963D600F279AA /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FB191D9963D600F279AA /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -3341,7 +3347,6 @@
 		D020FBE61D99782C00F279AA /* TGTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = D020FBE41D99782C00F279AA /* TGTColor.h */; };
 		D020FBE81D999B3200F279AA /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FBE71D999B3200F279AA /* Intents.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D020FBE91D999B4100F279AA /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D020FBE71D999B3200F279AA /* Intents.framework */; };
-		D020FBEA1D99A83C00F279AA /* MtProtoKitDynamic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B301C7C86B200DD5E83 /* MtProtoKitDynamic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D02344B21DEEFBD800FB7C68 /* TGDialogListCellEditingControls.h in Headers */ = {isa = PBXBuildFile; fileRef = D02344B01DEEFBD800FB7C68 /* TGDialogListCellEditingControls.h */; };
 		D02344B31DEEFBD800FB7C68 /* TGDialogListCellEditingControls.m in Sources */ = {isa = PBXBuildFile; fileRef = D02344B11DEEFBD800FB7C68 /* TGDialogListCellEditingControls.m */; };
 		D02384401D6F305A0094F9BB /* TLRPCmessages_getBotCallbackAnswer.h in Headers */ = {isa = PBXBuildFile; fileRef = D023843E1D6F305A0094F9BB /* TLRPCmessages_getBotCallbackAnswer.h */; };
@@ -3727,7 +3732,6 @@
 		D061F2881A928F580031BCBE /* CameraFlipButton.png in Resources */ = {isa = PBXBuildFile; fileRef = D061F27E1A928F580031BCBE /* CameraFlipButton.png */; };
 		D061F2891A928F580031BCBE /* CameraFlipButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D061F27F1A928F580031BCBE /* CameraFlipButton@2x.png */; };
 		D061F28C1A928F580031BCBE /* NavigationBackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D061F2821A928F580031BCBE /* NavigationBackArrow.png */; };
-		D061F2FF1A9290F80031BCBE /* Share.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D02601D71A55CA2300716290 /* Share.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D06232B21B39D544006A4140 /* ConversationInputFieldActionsIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D06232AF1B39D544006A4140 /* ConversationInputFieldActionsIcon@2x.png */; };
 		D06232B31B39D544006A4140 /* ConversationInputFieldActionsIcon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D06232B01B39D544006A4140 /* ConversationInputFieldActionsIcon@3x.png */; };
 		D06232B41B39D544006A4140 /* ConversationInputFieldActionsIcon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = D06232B11B39D544006A4140 /* ConversationInputFieldActionsIcon@1x.png */; };
@@ -4486,7 +4490,6 @@
 		D0C925D7194A024000E629CA /* texture_helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C925A7194A024000E629CA /* texture_helper.m */; };
 		D0CAEA231A6D9BB20033650D /* TGSharedPhotoSignals.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAEA221A6D9BB20033650D /* TGSharedPhotoSignals.m */; };
 		D0CAEA261A6D9DA60033650D /* TGSharedMediaUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CAEA251A6D9DA60033650D /* TGSharedMediaUtils.m */; };
-		D0CB068D1ADC8DCE005E298F /* SSignalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08763251A83963900632240 /* SSignalKit.framework */; };
 		D0CB14A0199A7A4E00EBCEA7 /* TGGenericPeerMediaGalleryDefaultHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB149F199A7A4E00EBCEA7 /* TGGenericPeerMediaGalleryDefaultHeaderView.m */; };
 		D0CB14A4199CEF8F00EBCEA7 /* TGGenericPeerMediaGalleryActionsAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB14A3199CEF8F00EBCEA7 /* TGGenericPeerMediaGalleryActionsAccessoryView.m */; };
 		D0CB14A7199CEFAE00EBCEA7 /* TGGenericPeerMediaGalleryDeleteAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CB14A6199CEFAE00EBCEA7 /* TGGenericPeerMediaGalleryDeleteAccessoryView.m */; };
@@ -4771,7 +4774,6 @@
 		D0EDE57C1D9AD597005D4CE8 /* TGPreparedGameMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EDE57A1D9AD597005D4CE8 /* TGPreparedGameMessage.h */; };
 		D0EDE57D1D9AD597005D4CE8 /* TGPreparedGameMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EDE57B1D9AD597005D4CE8 /* TGPreparedGameMessage.m */; };
 		D0EDECEC1924FA5F007314E3 /* TGAnimationThumbnailDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EDECEB1924FA5F007314E3 /* TGAnimationThumbnailDataSource.m */; };
-		D0EE3B361C7C87C400DD5E83 /* MtProtoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EE3B2C1C7C86B200DD5E83 /* MtProtoKit.framework */; };
 		D0EE7D241DF0C3690025BA6B /* TGDialogListCellEditingButton.h in Headers */ = {isa = PBXBuildFile; fileRef = D0EE7D221DF0C3690025BA6B /* TGDialogListCellEditingButton.h */; };
 		D0EE7D251DF0C3690025BA6B /* TGDialogListCellEditingButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EE7D231DF0C3690025BA6B /* TGDialogListCellEditingButton.m */; };
 		D0EFBE901A1A0D4D00FF33C3 /* SecretLayer20.m in Sources */ = {isa = PBXBuildFile; fileRef = D0EFBE8F1A1A0D4D00FF33C3 /* SecretLayer20.m */; };
@@ -4910,13 +4912,6 @@
 			remoteGlobalIDString = D0445DD71A7C2CA500267924;
 			remoteInfo = SSignalKit;
 		};
-		099120CA1EEAA63400F1366E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D08805A3156E8F3600311537 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 099120BF1EEAA63400F1366E;
-			remoteInfo = Widget;
-		};
 		0998CF8E2087C4970031841C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
@@ -4952,19 +4947,54 @@
 			remoteGlobalIDString = 84FE12EF1E4C1485009B157C;
 			remoteInfo = LottieLibraryIOS;
 		};
+		390AA3C422464BD20007649F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D08805A3156E8F3600311537 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D020FB091D99637100F279AA;
+			remoteInfo = LegacyDatabase;
+		};
+		390AA3C622464D9A0007649F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D01777321F1F8FA80044446D /* LegacyComponents.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D01777261F1F8F100044446D;
+			remoteInfo = LegacyComponents;
+		};
+		390AA3C822464E0F0007649F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0445DD71A7C2CA500267924;
+			remoteInfo = SSignalKit;
+		};
+		390AA3CA22464F7F0007649F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D2250A1B4D817B0085E26D;
+			remoteInfo = MtProtoKitDynamic;
+		};
+		3912EB6D22D0A31A00C5F734 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CB05F61ADC4483005E298F;
+			remoteInfo = MtProtoKit;
+		};
+		395876E22243A77B00FDDD8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69F842411E67546900C110F7 /* libtgvoip.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 69F842351E67540700C110F7;
+			remoteInfo = libtgvoip;
+		};
 		68744C1B1BB1A9F700FE6542 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D08805A3156E8F3600311537 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 68744C181BB1A9F700FE6542;
 			remoteInfo = "watchkitapp Extension";
-		};
-		68744C2C1BB1A9F800FE6542 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D08805A3156E8F3600311537 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 68744C0C1BB1A9F700FE6542;
-			remoteInfo = watchkitapp;
 		};
 		692AB87B1E67591700706ACC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -4980,13 +5010,6 @@
 			remoteGlobalIDString = D01777271F1F8F100044446D;
 			remoteInfo = LegacyComponents;
 		};
-		D020FAE31D99466A00F279AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D08805A3156E8F3600311537 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D020FADC1D99466A00F279AA;
-			remoteInfo = SiriIntents;
-		};
 		D020FAF41D994A6700F279AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
@@ -4994,26 +5017,12 @@
 			remoteGlobalIDString = D0D2250A1B4D817B0085E26D;
 			remoteInfo = MtProtoKitDynamic;
 		};
-		D020FB001D99509500F279AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D0CB05F61ADC4483005E298F;
-			remoteInfo = MtProtoKit;
-		};
 		D020FB031D995E9700F279AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D0EE3B231C7C86B200DD5E83 /* MtProtoKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = D0D2250A1B4D817B0085E26D;
 			remoteInfo = MtProtoKitDynamic;
-		};
-		D020FB0F1D99637200F279AA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D08805A3156E8F3600311537 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D020FB091D99637100F279AA;
-			remoteInfo = LegacyDatabase;
 		};
 		D04324E21DC26E2E00E0C528 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5036,13 +5045,6 @@
 			remoteGlobalIDString = D0085B2C1B282B9800EAF753;
 			remoteInfo = SwiftSignalKitTests;
 		};
-		D061F3001A9290F80031BCBE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D08805A3156E8F3600311537 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D02601D61A55CA2300716290;
-			remoteInfo = Share;
-		};
 		D08763241A83963900632240 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
@@ -5056,13 +5058,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = D0445DE31A7C2CA500267924;
 			remoteInfo = SSignalKitTests;
-		};
-		D0CB068B1ADC8DC6005E298F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D087631F1A83963900632240 /* SSignalKit.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = D0445DD71A7C2CA500267924;
-			remoteInfo = SSignalKit;
 		};
 		D0EE3B2B1C7C86B200DD5E83 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -5113,40 +5108,19 @@
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6879BEE41B43683E007C9800 /* Embed Watch Content */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
-			dstSubfolderSpec = 16;
-			files = (
-				68744C2E1BB1A9F800FE6542 /* watchkitapp.app in Embed Watch Content */,
-			);
-			name = "Embed Watch Content";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D020FB161D99637200F279AA /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D020FBEA1D99A83C00F279AA /* MtProtoKitDynamic.framework in Embed Frameworks */,
-				D020FB121D99637200F279AA /* LegacyDatabase.framework in Embed Frameworks */,
+				390AA3CC22464FD80007649F /* MtProtoKitDynamic.framework in Embed Frameworks */,
+				39A86D5F21E8F50800891F25 /* SSignalKit.framework in Embed Frameworks */,
+				395876DB2243A16500FDDD8A /* LegacyDatabase.framework in Embed Frameworks */,
+				395876DD2243A45200FDDD8A /* LegacyComponents.framework in Embed Frameworks */,
+				395876E12243A77B00FDDD8A /* libtgvoip.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D061F3021A9290F80031BCBE /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D061F2FF1A9290F80031BCBE /* Share.appex in Embed App Extensions */,
-				099120CC1EEAA63400F1366E /* Widget.appex in Embed App Extensions */,
-				D020FAE51D99466A00F279AA /* SiriIntents.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -5966,6 +5940,8 @@
 		09FCB6901FB2E98B0007D2CA /* PasswordPlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasswordPlaceholderIcon@2x.png"; path = "Resources/PasswordPlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6931FB2FAE60007D2CA /* PasscodePlaceholderIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@2x.png"; path = "Resources/PasscodePlaceholderIcon@2x.png"; sourceTree = "<group>"; };
 		09FCB6941FB2FAE70007D2CA /* PasscodePlaceholderIcon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "PasscodePlaceholderIcon@3x.png"; path = "Resources/PasscodePlaceholderIcon@3x.png"; sourceTree = "<group>"; };
+		3912EB6822D01D2600C5F734 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		3912EB6922D01D2700C5F734 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 		6803268D1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoPaintSettingsWrapperView.h; sourceTree = "<group>"; };
 		6803268E1D5D74FF0062725B /* TGPhotoPaintSettingsWrapperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoPaintSettingsWrapperView.m; sourceTree = "<group>"; };
 		680326911D5DFC640062725B /* TGPaintingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPaintingData.h; sourceTree = "<group>"; };
@@ -11764,6 +11740,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1A48156DA7FE048D79D27774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		68744C161BB1A9F700FE6542 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -11795,8 +11778,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39A86D6221E8F67200891F25 /* LegacyDatabase.framework in Frameworks */,
 				0942D9DC2122D3A400F32F57 /* Vision.framework in Frameworks */,
-				09B76D4F202149D8009835B5 /* libLottie.a in Frameworks */,
 				0991BA251FDADFFF005EDFF2 /* PhotosUI.framework in Frameworks */,
 				D08805B3156E8F3600311537 /* Foundation.framework in Frameworks */,
 				D08805B1156E8F3600311537 /* UIKit.framework in Frameworks */,
@@ -11809,7 +11792,6 @@
 				D020FBE81D999B3200F279AA /* Intents.framework in Frameworks */,
 				685FDB4F1D9997730045EC75 /* NotificationCenter.framework in Frameworks */,
 				687D86911D01CCE100820510 /* AVKit.framework in Frameworks */,
-				D0EE3B361C7C87C400DD5E83 /* MtProtoKit.framework in Frameworks */,
 				68CAE0641C6CEF1700151753 /* WebKit.framework in Frameworks */,
 				93A5407F185F2D4D00B4F135 /* CoreMotion.framework in Frameworks */,
 				D0A4D7A11C0F961B00537E74 /* VideoToolbox.framework in Frameworks */,
@@ -11818,10 +11800,11 @@
 				D0821A301BBEA38200CE53BA /* CoreSpotlight.framework in Frameworks */,
 				D00C79211BBCA4CA00F979C8 /* HockeySDK.framework in Frameworks */,
 				D0CD8FF71BB33B9900E05F40 /* SafariServices.framework in Frameworks */,
+				39A86D5A21E8F4FF00891F25 /* MtProtoKit.framework in Frameworks */,
 				6836F8F51BB262CC00D3A77B /* WatchConnectivity.framework in Frameworks */,
-				D0CB068D1ADC8DCE005E298F /* SSignalKit.framework in Frameworks */,
 				D0C09C901A6E98A4008369D7 /* OpenGLES.framework in Frameworks */,
 				D0C09C8F1A6E9897008369D7 /* CoreImage.framework in Frameworks */,
+				395876E02243A77B00FDDD8A /* libtgvoip.framework in Frameworks */,
 				D0B3942F1A57055D00D9AB97 /* LocalAuthentication.framework in Frameworks */,
 				D0BE9B6C1A38D9ED0001972E /* Photos.framework in Frameworks */,
 				D07147811A14C37200D7896A /* WebP.framework in Frameworks */,
@@ -11830,6 +11813,8 @@
 				D0AC709918BE214000CDFFA8 /* libopus.a in Frameworks */,
 				933AA4A118609ADB000AA848 /* QuickLook.framework in Frameworks */,
 				93EB7AAE184F508D00891DBF /* Accelerate.framework in Frameworks */,
+				395876DA2243A16500FDDD8A /* LegacyDatabase.framework in Frameworks */,
+				3912EB6B22D01D2800C5F734 /* Fabric.framework in Frameworks */,
 				933E6A3F170B300100651252 /* MediaPlayer.framework in Frameworks */,
 				93A109BF1705D77C00FE4F89 /* MobileCoreServices.framework in Frameworks */,
 				9389A8D51697A31D00B68E92 /* AssetsLibrary.framework in Frameworks */,
@@ -11840,6 +11825,7 @@
 				937F0378161DF8E600AA32DC /* CoreLocation.framework in Frameworks */,
 				93B532A6160BEA3000A16903 /* CFNetwork.framework in Frameworks */,
 				D00733D515B1B96C0091EBEE /* AVFoundation.framework in Frameworks */,
+				3912EB6A22D01D2800C5F734 /* Crashlytics.framework in Frameworks */,
 				D00733D115B1B9610091EBEE /* CoreVideo.framework in Frameworks */,
 				D00733CF15B1B95C0091EBEE /* CoreMedia.framework in Frameworks */,
 				D03EEFFB15AF60DF005D0F1B /* AudioToolbox.framework in Frameworks */,
@@ -15983,6 +15969,13 @@
 			name = Date;
 			sourceTree = "<group>";
 		};
+		B764D551555056BF510842C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D00542F41BC74F9000456715 /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -19965,6 +19958,8 @@
 		D08805A1156E8F3600311537 = {
 			isa = PBXGroup;
 			children = (
+				3912EB6822D01D2600C5F734 /* Crashlytics.framework */,
+				3912EB6922D01D2700C5F734 /* Fabric.framework */,
 				D0B9B19419CA324D0020C9CF /* LaunchScreen.xib */,
 				D0DAA484197496240036E709 /* Icon-76.png */,
 				D0C6748E1CB8640400183765 /* Icon-167.png */,
@@ -20008,6 +20003,7 @@
 				099120C21EEAA63400F1366E /* Widget */,
 				D08805AF156E8F3600311537 /* Frameworks */,
 				D08805AD156E8F3600311537 /* Products */,
+				B764D551555056BF510842C8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -24758,6 +24754,7 @@
 			buildPhases = (
 				68744C0B1BB1A9F700FE6542 /* Resources */,
 				68744C321BB1A9F800FE6542 /* Embed App Extensions */,
+				1A48156DA7FE048D79D27774 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -24836,7 +24833,6 @@
 			dependencies = (
 				09750F831F3087EA001B9886 /* PBXTargetDependency */,
 				D020FAF51D994A6700F279AA /* PBXTargetDependency */,
-				68B22D071C11F32400EE8FF9 /* PBXTargetDependency */,
 			);
 			name = Share;
 			productName = Share;
@@ -24851,21 +24847,19 @@
 				D08805A9156E8F3600311537 /* Frameworks */,
 				D08805AA156E8F3600311537 /* Resources */,
 				932E96A716946F6A00D6EC55 /* ShellScript */,
+				3912EB6C22D01D4600C5F734 /* ShellScript */,
 				687751281A16D79400AC673F /* Headers */,
-				D061F3021A9290F80031BCBE /* Embed App Extensions */,
-				6879BEE41B43683E007C9800 /* Embed Watch Content */,
 				D020FB161D99637200F279AA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D020FB011D99509500F279AA /* PBXTargetDependency */,
-				D0CB068C1ADC8DC6005E298F /* PBXTargetDependency */,
-				D061F3011A9290F80031BCBE /* PBXTargetDependency */,
-				68744C2D1BB1A9F800FE6542 /* PBXTargetDependency */,
-				D020FAE41D99466A00F279AA /* PBXTargetDependency */,
-				D020FB101D99637200F279AA /* PBXTargetDependency */,
-				099120CB1EEAA63400F1366E /* PBXTargetDependency */,
+				3912EB6E22D0A31A00C5F734 /* PBXTargetDependency */,
+				390AA3CB22464F7F0007649F /* PBXTargetDependency */,
+				390AA3C922464E0F0007649F /* PBXTargetDependency */,
+				390AA3C722464D9A0007649F /* PBXTargetDependency */,
+				390AA3C522464BD20007649F /* PBXTargetDependency */,
+				395876E32243A77B00FDDD8A /* PBXTargetDependency */,
 			);
 			name = Telegraph;
 			productName = Telegraph;
@@ -24883,8 +24877,8 @@
 				TargetAttributes = {
 					099120BF1EEAA63400F1366E = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = X834Q8SBVP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -24893,18 +24887,18 @@
 					};
 					68744C0C1BB1A9F700FE6542 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = X834Q8SBVP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
 					68744C181BB1A9F700FE6542 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = X834Q8SBVP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -24913,8 +24907,8 @@
 					};
 					D020FADC1D99466A00F279AA = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = X834Q8SBVP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -24923,13 +24917,13 @@
 					};
 					D020FB091D99637100F279AA = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = X834Q8SBVP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 					};
 					D02601D61A55CA2300716290 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = X834Q8SBVP;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = CE6985U2L5;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -24940,11 +24934,11 @@
 						};
 					};
 					D08805AB156E8F3600311537 = {
-						DevelopmentTeam = X834Q8SBVP;
+						DevelopmentTeam = CE6985U2L5;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplePay = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -25882,6 +25876,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3912EB6C22D01D4600C5F734 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PROJECT_DIR}/Fabric.framework/run\" 985dd468b7fec2deb51f17a519b5cbb8b15b4619 3fb20b82164f5d65d4f097755ad7b33b281b4c72dfdb82b522f185d8d6774b6c\n";
+		};
 		932E96A716946F6A00D6EC55 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -28438,64 +28450,55 @@
 			name = SSignalKit;
 			targetProxy = 09750F821F3087EA001B9886 /* PBXContainerItemProxy */;
 		};
-		099120CB1EEAA63400F1366E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 099120BF1EEAA63400F1366E /* Widget */;
-			targetProxy = 099120CA1EEAA63400F1366E /* PBXContainerItemProxy */;
-		};
 		0998CF8F2087C4970031841C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MtProtoKitDynamic;
 			targetProxy = 0998CF8E2087C4970031841C /* PBXContainerItemProxy */;
+		};
+		390AA3C522464BD20007649F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D020FB091D99637100F279AA /* LegacyDatabase */;
+			targetProxy = 390AA3C422464BD20007649F /* PBXContainerItemProxy */;
+		};
+		390AA3C722464D9A0007649F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LegacyComponents;
+			targetProxy = 390AA3C622464D9A0007649F /* PBXContainerItemProxy */;
+		};
+		390AA3C922464E0F0007649F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSignalKit;
+			targetProxy = 390AA3C822464E0F0007649F /* PBXContainerItemProxy */;
+		};
+		390AA3CB22464F7F0007649F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MtProtoKitDynamic;
+			targetProxy = 390AA3CA22464F7F0007649F /* PBXContainerItemProxy */;
+		};
+		3912EB6E22D0A31A00C5F734 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MtProtoKit;
+			targetProxy = 3912EB6D22D0A31A00C5F734 /* PBXContainerItemProxy */;
+		};
+		395876E32243A77B00FDDD8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libtgvoip;
+			targetProxy = 395876E22243A77B00FDDD8A /* PBXContainerItemProxy */;
 		};
 		68744C1C1BB1A9F700FE6542 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 68744C181BB1A9F700FE6542 /* watchkitapp Extension */;
 			targetProxy = 68744C1B1BB1A9F700FE6542 /* PBXContainerItemProxy */;
 		};
-		68744C2D1BB1A9F800FE6542 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 68744C0C1BB1A9F700FE6542 /* watchkitapp */;
-			targetProxy = 68744C2C1BB1A9F800FE6542 /* PBXContainerItemProxy */;
-		};
-		68B22D071C11F32400EE8FF9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = pop;
-		};
-		D020FAE41D99466A00F279AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D020FADC1D99466A00F279AA /* SiriIntents */;
-			targetProxy = D020FAE31D99466A00F279AA /* PBXContainerItemProxy */;
-		};
 		D020FAF51D994A6700F279AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MtProtoKitDynamic;
 			targetProxy = D020FAF41D994A6700F279AA /* PBXContainerItemProxy */;
 		};
-		D020FB011D99509500F279AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MtProtoKit;
-			targetProxy = D020FB001D99509500F279AA /* PBXContainerItemProxy */;
-		};
 		D020FB041D995E9700F279AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MtProtoKitDynamic;
 			targetProxy = D020FB031D995E9700F279AA /* PBXContainerItemProxy */;
-		};
-		D020FB101D99637200F279AA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D020FB091D99637100F279AA /* LegacyDatabase */;
-			targetProxy = D020FB0F1D99637200F279AA /* PBXContainerItemProxy */;
-		};
-		D061F3011A9290F80031BCBE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D02601D61A55CA2300716290 /* Share */;
-			targetProxy = D061F3001A9290F80031BCBE /* PBXContainerItemProxy */;
-		};
-		D0CB068C1ADC8DC6005E298F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SSignalKit;
-			targetProxy = D0CB068B1ADC8DC6005E298F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -28871,9 +28874,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		099120CE1EEAA63400F1366E /* Debug Hockeyapp */ = {
+		099120CE1EEAA63400F1366E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -28886,10 +28889,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -28897,13 +28901,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.Twidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "750e4e9c-1916-45fa-9658-d0e552c1e71d";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Widget Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		099120CF1EEAA63400F1366E /* Debug AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -28921,9 +28925,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Widget.appstore.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -28931,7 +28936,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.Twidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "0cf293b4-8d57-4d1b-aeaa-b34e30e8f053";
 				PROVISIONING_PROFILE_SPECIFIER = "Telegram AppStore Widget Development";
@@ -28954,11 +28959,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CODE_SIGN_ENTITLEMENTS = Widget/Widget.appstore.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -28966,52 +28972,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.Twidget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0b3595f4-c0c4-41f7-922a-b2d0d725b59c";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Widget AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = "Release AppStore";
 		};
-		099120D11EEAA63400F1366E /* Release Hockeyapp */ = {
+		68744C301BB1A9F800FE6542 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = X834Q8SBVP;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = Widget/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6b2780f5-377b-4756-b4b5-e2779a743e40";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Widget InHouse";
-				SKIP_INSTALL = YES;
-			};
-			name = "Release Hockeyapp";
-		};
-		68744C301BB1A9F800FE6542 /* Debug Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -29019,11 +28990,12 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_PREFIX_HEADER = "Watch/Extension/WatchExtension-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -29034,17 +29006,16 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "fa3a73e6-2790-4b55-bb6e-29d31e7d9266";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "910eaeba-2d88-4938-8365-24f49cad7234";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enteprise Watch Extension Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		68744C311BB1A9F800FE6542 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -29055,13 +29026,14 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension appstore.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_PREFIX_HEADER = "Watch/Extension/WatchExtension-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -29072,11 +29044,10 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "00ea86d7-b098-48f0-b8ac-8e9f9b222c05";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "00ea86d7-b098-48f0-b8ac-8e9f9b222c05";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Watch Extension AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -29084,9 +29055,9 @@
 			};
 			name = "Release AppStore";
 		};
-		68744C341BB1A9F800FE6542 /* Debug Hockeyapp */ = {
+		68744C341BB1A9F800FE6542 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -29094,29 +29065,28 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = Watch/App/watchkitapp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Peter Iakovlev (9J4EJ3F97G)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				IBSC_MODULE = watchkitapp_Extension;
 				INFOPLIST_FILE = Watch/App/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fdcbd773-556c-4626-8f18-3f577682fdd5";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fdcbd773-556c-4626-8f18-3f577682fdd5";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Watch App Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		68744C351BB1A9F800FE6542 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -29128,24 +29098,23 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = Watch/App/watchkitapp_appstore.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				IBSC_MODULE = watchkitapp_Extension;
 				INFOPLIST_FILE = Watch/App/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "8ef52063-eee0-494c-bba5-fa20b6c2dd0f";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "8ef52063-eee0-494c-bba5-fa20b6c2dd0f";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegraph Watch App Appstore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -29166,8 +29135,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (L583WTN9J2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ilya Laktyushin (L583WTN9J2)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -29206,7 +29173,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D064421C1E4E2A3600394D5F /* AppStore.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -29218,20 +29185,24 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Telegraph/thirdparty/HockeySDK-iOS-3\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/HockeySDK-iOS-3/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/thirdparty",
+					"$(PROJECT_DIR)/thirdparty/**",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/submodules/MtProtoKit/**",
+					"$(PROJECT_DIR)/LegacyDatabase",
+					"$(PROJECT_DIR)/Lottie",
+					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -29242,21 +29213,6 @@
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				HEADER_SEARCH_PATHS = (
-					submodules/MtProtoKit,
-					Telegraph/thirdparty/ogg,
-					thirdparty/libphonenumber.framework/Headers,
-					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
-					legacy/TelegraphKit,
-					legacy/TL/TL,
-					legacy/TL,
-					thirdparty/pop,
-					thirdparty/libbpg,
-					/Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl,
-					thirdparty/SSignalKit,
-					submodules/libtgvoip,
-					"thirdparty/Lottie/lottie-ios/Classes/PublicHeaders",
-				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -29267,6 +29223,7 @@
 					"$(PROJECT_DIR)/thirdparty/libbpg",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
+					"$(PROJECT_DIR)t/thirdparty/Lottie",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
 				);
 				OTHER_CFLAGS = "";
@@ -29281,14 +29238,14 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTestt;
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "2acf9355-d0f7-42cb-83f9-2c692fca62dc";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "a20bcd5d-df04-44fb-9a71-0e28da1332ba";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Development";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "submodules/MtProtoKit/** Telegraph/thirdparty/ogg thirdparty/libphonenumber.framework/Headers $(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include legacy/TelegraphKit legacy/TL/TL legacy/TL thirdparty/pop thirdparty/libbpg /Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl thirdparty/SSignalKit submodules/libtgvoip thirdparty/Lottie/lottie-ios/Classes/PublicHeaders submodules/Lottie/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe $(inherited) submodules/MtProtoKit/** thirdparty/SSignalKit/** LegacyDatabase submodules/libtgvoip/** thirdparty/Lottie/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -29310,8 +29267,9 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Share/Share appstore.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -29334,10 +29292,10 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2c5cfefd-460c-4c3f-937c-6de5c41c4099";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "2c5cfefd-460c-4c3f-937c-6de5c41c4099";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Share Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = "Debug AppStore";
@@ -29352,23 +29310,22 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = Watch/App/watchkitapp_appstore.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				IBSC_MODULE = watchkitapp_Extension;
 				INFOPLIST_FILE = Watch/App/Info.plist;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "6d8ba905-2f88-4bb4-a75d-0755c934f39c";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6d8ba905-2f88-4bb4-a75d-0755c934f39c";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Watch App Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -29385,12 +29342,13 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension appstore.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_PREFIX_HEADER = "Watch/Extension/WatchExtension-Prefix.pch";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -29401,11 +29359,10 @@
 				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.watchkitapp.extension;
 				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "6beb25ec-b2fc-4a8a-89aa-b930f7189e6a";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "944f892d-83e1-43dc-94b6-4fe8e74a9014";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Watch Extension Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -29428,9 +29385,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = "SiriIntents/SiriIntents appstore.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: David Neff (SGA99XHTJ6)";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -29438,11 +29396,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(TELEGRAPH_INTENTS_BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.SiriIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "b6641f00-c09b-4acb-808d-8c4dd21f3107";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "b6641f00-c09b-4acb-808d-8c4dd21f3107";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Siri Intents Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = "Debug AppStore";
@@ -29463,10 +29420,11 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -29490,8 +29448,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.LegacyDatabase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -29499,9 +29458,9 @@
 			};
 			name = "Debug AppStore";
 		};
-		D020FAE61D99466A00F279AA /* Debug Hockeyapp */ = {
+		D020FAE61D99466A00F279AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -29513,10 +29472,11 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = SiriIntents/SiriIntents.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_TESTABILITY = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -29524,13 +29484,13 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(TELEGRAPH_INTENTS_BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.SiriIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0dae6d23-2f4a-4d6c-a827-c60b1a0d3790";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Siri Intents Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		D020FAE71D99466A00F279AA /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -29546,11 +29506,12 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CODE_SIGN_ENTITLEMENTS = "SiriIntents/SiriIntents appstore.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -29558,18 +29519,17 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(TELEGRAPH_INTENTS_BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.SiriIntents;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "fa209923-cdfb-4776-981e-839408d7c617";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fa209923-cdfb-4776-981e-839408d7c617";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegraph Siri Intents AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
 			name = "Release AppStore";
 		};
-		D020FB141D99637200F279AA /* Debug Hockeyapp */ = {
+		D020FB141D99637200F279AA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -29581,12 +29541,13 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -29610,14 +29571,15 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.LegacyDatabase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		D020FB151D99637200F279AA /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -29633,13 +29595,14 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -29664,9 +29627,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.LegacyDatabase;
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.LegacyDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -29674,9 +29638,9 @@
 			};
 			name = "Release AppStore";
 		};
-		D02601E41A55CA2400716290 /* Debug Hockeyapp */ = {
+		D02601E41A55CA2400716290 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -29689,9 +29653,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -29714,13 +29679,13 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "761707fe-6e26-48ac-ade2-535450bdc05d";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "fbef160a-0fa6-4140-aaa6-f54e7aecf152";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Share Development";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		D02601E51A55CA2400716290 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -29737,9 +29702,10 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CODE_SIGN_ENTITLEMENTS = "Share/Share appstore.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -29762,361 +29728,13 @@
 					"-ObjC",
 					"-lc++",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTest.Share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "1df6ae0e-83f6-4477-a8d8-74f1ed282e81";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1df6ae0e-83f6-4477-a8d8-74f1ed282e81";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegraph Share AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 			};
 			name = "Release AppStore";
-		};
-		D064420C1E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				COPY_PHASE_STRIP = YES;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				HEADER_SEARCH_PATHS = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "3d288e61-4eb7-41c0-87cc-4cb24f2b7517";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3d288e61-4eb7-41c0-87cc-4cb24f2b7517";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-				WARNING_CFLAGS = (
-					"-Wall",
-					"-Wno-dollar-in-identifier-extension",
-					"-Wno-gnu",
-					"-Wno-selector-type-mismatch",
-				);
-			};
-			name = "Release Hockeyapp";
-		};
-		D064420D1E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
-				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = NO;
-				CLANG_WARN_OBJC_RECEIVER_WEAK = YES;
-				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_ENTITLEMENTS = Telegraph/Enterprise.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
-				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/Telegraph/Third-Party/HockeySDK-iOS-3/HockeySDK.embeddedframework\"",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(PROJECT_DIR)/Telegraph/thirdparty/HockeySDK-iOS-3/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/thirdparty",
-					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/Telegraph/thirdparty",
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
-				GCC_THUMB_SUPPORT = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
-				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
-				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
-				GCC_WARN_UNUSED_PARAMETER = YES;
-				HEADER_SEARCH_PATHS = (
-					submodules/MtProtoKit,
-					Telegraph/thirdparty/ogg,
-					thirdparty/libphonenumber.framework/Headers,
-					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
-					legacy/TelegraphKit,
-					legacy/TL/TL,
-					legacy/TL,
-					thirdparty/pop,
-					"$(SRCROOT)/../MtProtoKit/thirdparty/openssl",
-					thirdparty/SSignalKit,
-					submodules/libtgvoip,
-					"thirdparty/Lottie/lottie-ios/Classes/PublicHeaders",
-				);
-				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Telegraph/thirdparty/opus/lib",
-					"$(PROJECT_DIR)/thirdparty/WebP.framework",
-					"$(PROJECT_DIR)/thirdparty/libbpg",
-					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
-					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
-					"$(PROJECT_DIR)/submodules/libtgvoip/external",
-				);
-				OTHER_CFLAGS = "";
-				"OTHER_CFLAGS[arch=*]" = (
-					"-DNS_BLOCK_ASSERTIONS",
-					"-DSQLITE_TEMP_STORE=2",
-					"-DSQLITE_HAS_CODEC=1",
-					"-DSQLCIPHER_CRYPTO_CC=1",
-					"-DSQLITE_ENABLE_FTS3",
-					"-DTGVOIP_USE_CUSTOM_CRYPTO",
-					"-DTGVOIP_USE_AUDIO_SESSION",
-					"-DINTERNAL_RELEASE",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "c5e1c959-2f86-41ce-9cc1-b885a30c8da1";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "637d0234-7d69-4419-9638-dafd538acd89";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise InHouse";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
-				WARNING_CFLAGS = "-Wall";
-				WRAPPER_EXTENSION = app;
-			};
-			name = "Release Hockeyapp";
-		};
-		D064420E1E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_ENTITLEMENTS = Share/Share.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				DEVELOPMENT_TEAM = X834Q8SBVP;
-				ENABLE_BITCODE = NO;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					thirdparty/pop,
-				);
-				INFOPLIST_FILE = Share/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "25f82627-bca3-44f9-8108-ea51af08a059";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7405c401-c1ea-4de1-965f-c4695051d431";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Share InHouse";
-				SKIP_INSTALL = NO;
-			};
-			name = "Release Hockeyapp";
-		};
-		D064420F1E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = WatchAppIcon;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = Watch/App/watchkitapp.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = X834Q8SBVP;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				IBSC_MODULE = watchkitapp_Extension;
-				INFOPLIST_FILE = Watch/App/Info.plist;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "01d1e98d-6f55-42ee-b8cf-a2da5e4e438e";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "cec1b79c-0570-4cb8-8974-3454294e1eb9";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Watch App InHouse";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = "Release Hockeyapp";
-		};
-		D06442101E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CODE_SIGN_ENTITLEMENTS = "Watch/Extension/watchkitapp Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Distribution";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = X834Q8SBVP;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_PREFIX_HEADER = "Watch/Extension/WatchExtension-Prefix.pch";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				HEADER_SEARCH_PATHS = thirdparty/SSignalKit;
-				INFOPLIST_FILE = Watch/Extension/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				LIBRARY_SEARCH_PATHS = thirdparty/SSignalKit;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				PROVISIONING_PROFILE = "8055198b-f533-42f9-a336-3d1fc27ee913";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "d2dcafba-2f65-4b5b-803e-fa45d7726083";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Watch Extension InHouse";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = "Release Hockeyapp";
-		};
-		D06442111E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_ENTITLEMENTS = SiriIntents/SiriIntents.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = X834Q8SBVP;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				INFOPLIST_FILE = SiriIntents/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "$(TELEGRAPH_INTENTS_BUNDLE_ID)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "0fc7b1d6-f2a6-412f-b0bb-f711b07304b5";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Siri Intents InHouse";
-				SKIP_INSTALL = YES;
-			};
-			name = "Release Hockeyapp";
-		};
-		D06442121E4E299800394D5F /* Release Hockeyapp */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: TELEGRAM MESSENGER LLP";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_NS_ASSERTIONS = NO;
-				FRAMEWORK_SEARCH_PATHS = "";
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				HEADER_SEARCH_PATHS = "";
-				INFOPLIST_FILE = LegacyDatabase/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_CFLAGS = (
-					"-DNS_BLOCK_ASSERTIONS=1",
-					"-DSQLITE_TEMP_STORE=2",
-					"-DSQLITE_HAS_CODEC=1",
-					"-DSQLCIPHER_CRYPTO_CC=1",
-					"-DSQLITE_ENABLE_FTS3",
-				);
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.telegram.LegacyDatabase;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = "Release Hockeyapp";
 		};
 		D083491D20977881008CFD52 /* Debug Fork AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -30131,8 +29749,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (L583WTN9J2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ilya Laktyushin (L583WTN9J2)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -30171,8 +29787,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D013CB03209C3DFC009A0B6F /* Fork.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFork;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
@@ -30183,20 +29799,24 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Fork.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = DJ7L5686KL;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Telegraph/thirdparty/HockeySDK-iOS-3\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/HockeySDK-iOS-3/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/thirdparty",
+					"$(PROJECT_DIR)/thirdparty/**",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/submodules/MtProtoKit/**",
+					"$(PROJECT_DIR)/LegacyDatabase",
+					"$(PROJECT_DIR)/Lottie",
+					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -30207,21 +29827,6 @@
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				HEADER_SEARCH_PATHS = (
-					submodules/MtProtoKit,
-					Telegraph/thirdparty/ogg,
-					thirdparty/libphonenumber.framework/Headers,
-					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
-					legacy/TelegraphKit,
-					legacy/TL/TL,
-					legacy/TL,
-					thirdparty/pop,
-					thirdparty/libbpg,
-					/Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl,
-					thirdparty/SSignalKit,
-					submodules/libtgvoip,
-					"thirdparty/Lottie/lottie-ios/Classes/PublicHeaders",
-				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -30232,6 +29837,7 @@
 					"$(PROJECT_DIR)/thirdparty/libbpg",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
+					"$(PROJECT_DIR)t/thirdparty/Lottie",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
 				);
 				OTHER_CFLAGS = "";
@@ -30246,14 +29852,16 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTestt;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "b4d449a3-f44f-40db-8b19-69a3e30ee0e9";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39141dd6-8416-444b-b2f6-1674137bdef0";
-				PROVISIONING_PROFILE_SPECIFIER = "Tele App Development";
+				PROVISIONING_PROFILE_SPECIFIER = TTestt;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "submodules/MtProtoKit/** Telegraph/thirdparty/ogg thirdparty/libphonenumber.framework/Headers $(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include legacy/TelegraphKit legacy/TL/TL legacy/TL thirdparty/pop thirdparty/libbpg /Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl thirdparty/SSignalKit submodules/libtgvoip thirdparty/Lottie/lottie-ios/Classes/PublicHeaders submodules/Lottie/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe $(inherited) submodules/MtProtoKit/** thirdparty/SSignalKit/** LegacyDatabase submodules/libtgvoip/** thirdparty/Lottie/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -30425,12 +30033,12 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (7K5L5BWX3Z)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -30510,8 +30118,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -30548,8 +30154,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D013CB03209C3DFC009A0B6F /* Fork.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconFork;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_OBJC_IMPLICIT_ATOMIC_PROPERTIES = YES;
@@ -30559,21 +30165,25 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Fork.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: OPS ONEPRIVACYSOLUTION LIMITED (DJ7L5686KL)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: OPS ONEPRIVACYSOLUTION LIMITED (DJ7L5686KL)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = DJ7L5686KL;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Telegraph/Third-Party/HockeySDK-iOS-3/HockeySDK.embeddedframework\"",
+					"\"$(SRCROOT)/Telegraph/thirdparty/HockeySDK-iOS-3\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/HockeySDK-iOS-3/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/thirdparty",
+					"$(PROJECT_DIR)/thirdparty/**",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/submodules/MtProtoKit/**",
+					"$(PROJECT_DIR)/LegacyDatabase",
+					"$(PROJECT_DIR)/Lottie",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
@@ -30584,20 +30194,6 @@
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				HEADER_SEARCH_PATHS = (
-					submodules/MtProtoKit,
-					Telegraph/thirdparty/ogg,
-					thirdparty/libphonenumber.framework/Headers,
-					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
-					legacy/TelegraphKit,
-					legacy/TL/TL,
-					legacy/TL,
-					thirdparty/pop,
-					"$(SRCROOT)/../MtProtoKit/thirdparty/openssl",
-					thirdparty/SSignalKit,
-					submodules/libtgvoip,
-					"thirdparty/Lottie/lottie-ios/Classes/PublicHeaders",
-				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -30608,6 +30204,7 @@
 					"$(PROJECT_DIR)/thirdparty/libbpg",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
+					"$(PROJECT_DIR)t/thirdparty/Lottie",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
 				);
 				OTHER_CFLAGS = "";
@@ -30621,14 +30218,16 @@
 					"-DTGVOIP_USE_AUDIO_SESSION",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTestt;
 				PRODUCT_NAME = Telegram;
 				PROVISIONING_PROFILE = "fd103e1f-ca05-42a2-9526-ecaee7cd750c";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c393746a-d8b4-4397-9863-67776ec1184d";
-				PROVISIONING_PROFILE_SPECIFIER = "Tele App AppStore";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "submodules/MtProtoKit/** Telegraph/thirdparty/ogg thirdparty/libphonenumber.framework/Headers $(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include legacy/TelegraphKit legacy/TL/TL legacy/TL thirdparty/pop thirdparty/libbpg /Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl thirdparty/SSignalKit submodules/libtgvoip thirdparty/Lottie/lottie-ios/Classes/PublicHeaders submodules/Lottie/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe $(inherited) submodules/MtProtoKit/** thirdparty/SSignalKit/** LegacyDatabase submodules/libtgvoip/** thirdparty/Lottie/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -30804,13 +30403,13 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -30880,9 +30479,9 @@
 			};
 			name = "Release Fork AppStore";
 		};
-		D08805C2156E8F3600311537 /* Debug Hockeyapp */ = {
+		D08805C2156E8F3600311537 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -30893,8 +30492,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Ilya Laktyushin (L583WTN9J2)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Ilya Laktyushin (L583WTN9J2)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -30927,7 +30524,7 @@
 					"-Wno-selector-type-mismatch",
 				);
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		D08805C3156E8F3600311537 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
@@ -30942,8 +30539,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				FRAMEWORK_SEARCH_PATHS = "";
@@ -30976,11 +30571,11 @@
 			};
 			name = "Release AppStore";
 		};
-		D08805C5156E8F3600311537 /* Debug Hockeyapp */ = {
+		D08805C5156E8F3600311537 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93EFBF0E173DC6DA00F7B89E /* Config.xcconfig */;
+			baseConfigurationReference = 092E4BA52093FA0600B30E27 /* Common.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -30992,20 +30587,24 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Enterprise.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = X834Q8SBVP;
+				DEVELOPMENT_TEAM = CE6985U2L5;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Telegraph/thirdparty/HockeySDK-iOS-3\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/HockeySDK-iOS-3/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/thirdparty",
+					"$(PROJECT_DIR)/thirdparty/**",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/submodules/MtProtoKit/**",
+					"$(PROJECT_DIR)/LegacyDatabase",
+					"$(PROJECT_DIR)/Lottie",
+					"$(PROJECT_DIR)",
 				);
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -31016,21 +30615,6 @@
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				HEADER_SEARCH_PATHS = (
-					submodules/MtProtoKit,
-					Telegraph/thirdparty/ogg,
-					thirdparty/libphonenumber.framework/Headers,
-					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
-					legacy/TelegraphKit,
-					legacy/TL/TL,
-					legacy/TL,
-					thirdparty/pop,
-					thirdparty/libbpg,
-					/Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl,
-					thirdparty/SSignalKit,
-					submodules/libtgvoip,
-					"thirdparty/Lottie/lottie-ios/Classes/PublicHeaders",
-				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -31041,6 +30625,7 @@
 					"$(PROJECT_DIR)/thirdparty/libbpg",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
+					"$(PROJECT_DIR)t/thirdparty/Lottie",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
 				);
 				OTHER_CFLAGS = "";
@@ -31055,24 +30640,24 @@
 					"-DINTERNAL_RELEASE",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTestt;
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "39141dd6-8416-444b-b2f6-1674137bdef0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39141dd6-8416-444b-b2f6-1674137bdef0";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegram Enterprise Development";
+				PROVISIONING_PROFILE_SPECIFIER = TTestt;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "submodules/MtProtoKit/** Telegraph/thirdparty/ogg thirdparty/libphonenumber.framework/Headers $(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include legacy/TelegraphKit legacy/TL/TL legacy/TL thirdparty/pop thirdparty/libbpg /Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl thirdparty/SSignalKit submodules/libtgvoip thirdparty/Lottie/lottie-ios/Classes/PublicHeaders submodules/Lottie/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe $(inherited) submodules/MtProtoKit/** thirdparty/SSignalKit/** LegacyDatabase submodules/libtgvoip/** thirdparty/Lottie/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
-			name = "Debug Hockeyapp";
+			name = Debug;
 		};
 		D08805C6156E8F3600311537 /* Release AppStore */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D064421C1E4E2A3600394D5F /* AppStore.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -31083,21 +30668,25 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_ENTITLEMENTS = Telegraph/Telegram.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Digital Fortress LLC (C67CF9S4VU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = C67CF9S4VU;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Telegraph/Third-Party/HockeySDK-iOS-3/HockeySDK.embeddedframework\"",
+					"\"$(SRCROOT)/Telegraph/thirdparty/HockeySDK-iOS-3\"",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 					"$(PROJECT_DIR)/Telegraph/thirdparty/HockeySDK-iOS-3/HockeySDK.embeddedframework",
-					"$(PROJECT_DIR)/thirdparty",
+					"$(PROJECT_DIR)/thirdparty/**",
 					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
 					"$(PROJECT_DIR)/Telegraph/thirdparty",
-					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/**",
 					"$(PROJECT_DIR)/submodules/libtgvoip/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/submodules/MtProtoKit/**",
+					"$(PROJECT_DIR)/LegacyDatabase",
+					"$(PROJECT_DIR)/Lottie",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Telegraph/Telegraph-Prefix.pch";
@@ -31108,20 +30697,6 @@
 				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = NO;
 				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				GCC_WARN_UNUSED_PARAMETER = YES;
-				HEADER_SEARCH_PATHS = (
-					submodules/MtProtoKit,
-					Telegraph/thirdparty/ogg,
-					thirdparty/libphonenumber.framework/Headers,
-					"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include",
-					legacy/TelegraphKit,
-					legacy/TL/TL,
-					legacy/TL,
-					thirdparty/pop,
-					"$(SRCROOT)/../MtProtoKit/thirdparty/openssl",
-					thirdparty/SSignalKit,
-					submodules/libtgvoip,
-					"thirdparty/Lottie/lottie-ios/Classes/PublicHeaders",
-				);
 				INFOPLIST_FILE = "Telegraph/Telegraph-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -31132,6 +30707,7 @@
 					"$(PROJECT_DIR)/thirdparty/libbpg",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/iOS",
 					"$(SRCROOT)/submodules/MtProtoKit/openssl/OSX",
+					"$(PROJECT_DIR)t/thirdparty/Lottie",
 					"$(PROJECT_DIR)/submodules/libtgvoip/external",
 				);
 				OTHER_CFLAGS = "";
@@ -31145,14 +30721,15 @@
 					"-DTGVOIP_USE_AUDIO_SESSION",
 				);
 				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josshad.TTestt;
 				PRODUCT_NAME = Telegram;
-				PROVISIONING_PROFILE = "c393746a-d8b4-4397-9863-67776ec1184d";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "c393746a-d8b4-4397-9863-67776ec1184d";
-				PROVISIONING_PROFILE_SPECIFIER = "Telegraph AppStore";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "submodules/MtProtoKit/** Telegraph/thirdparty/ogg thirdparty/libphonenumber.framework/Headers $(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts/include legacy/TelegraphKit legacy/TL/TL legacy/TL thirdparty/pop thirdparty/libbpg /Users/peter/Dropbox/workspace/ModernTelegram/MtProtoKit/openssl thirdparty/SSignalKit submodules/libtgvoip thirdparty/Lottie/lottie-ios/Classes/PublicHeaders submodules/Lottie/**";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe";
+				USER_HEADER_SEARCH_PATHS = "../TelegraphKit/** ../ActionStage/ActionStage ../MtProtoKit_Legacy/MtProtoKit/** Telegraph/thirdparty/opus/include/** thirdparty/Stripe $(inherited) submodules/MtProtoKit/** thirdparty/SSignalKit/** LegacyDatabase submodules/libtgvoip/** thirdparty/Lottie/**";
 				WARNING_CFLAGS = "-Wall";
 				WRAPPER_EXTENSION = app;
 			};
@@ -31164,106 +30741,98 @@
 		099120CD1EEAA63400F1366E /* Build configuration list for PBXNativeTarget "Widget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				099120CE1EEAA63400F1366E /* Debug Hockeyapp */,
+				099120CE1EEAA63400F1366E /* Debug */,
 				D083492420977881008CFD52 /* Debug Fork AppStore */,
 				099120CF1EEAA63400F1366E /* Debug AppStore */,
 				099120D01EEAA63400F1366E /* Release AppStore */,
 				D08349392097788A008CFD52 /* Release Fork AppStore */,
-				099120D11EEAA63400F1366E /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		68744C2F1BB1A9F800FE6542 /* Build configuration list for PBXNativeTarget "watchkitapp Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68744C301BB1A9F800FE6542 /* Debug Hockeyapp */,
+				68744C301BB1A9F800FE6542 /* Debug */,
 				D083492120977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B71E5C411500F75970 /* Debug AppStore */,
 				68744C311BB1A9F800FE6542 /* Release AppStore */,
 				D08349362097788A008CFD52 /* Release Fork AppStore */,
-				D06442101E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		68744C331BB1A9F800FE6542 /* Build configuration list for PBXNativeTarget "watchkitapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				68744C341BB1A9F800FE6542 /* Debug Hockeyapp */,
+				68744C341BB1A9F800FE6542 /* Debug */,
 				D083492020977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B61E5C411500F75970 /* Debug AppStore */,
 				68744C351BB1A9F800FE6542 /* Release AppStore */,
 				D08349352097788A008CFD52 /* Release Fork AppStore */,
-				D064420F1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		D020FAF21D99466A00F279AA /* Build configuration list for PBXNativeTarget "SiriIntents" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D020FAE61D99466A00F279AA /* Debug Hockeyapp */,
+				D020FAE61D99466A00F279AA /* Debug */,
 				D083492220977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B81E5C411500F75970 /* Debug AppStore */,
 				D020FAE71D99466A00F279AA /* Release AppStore */,
 				D08349372097788A008CFD52 /* Release Fork AppStore */,
-				D06442111E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		D020FB131D99637200F279AA /* Build configuration list for PBXNativeTarget "LegacyDatabase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D020FB141D99637200F279AA /* Debug Hockeyapp */,
+				D020FB141D99637200F279AA /* Debug */,
 				D083492320977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B91E5C411500F75970 /* Debug AppStore */,
 				D020FB151D99637200F279AA /* Release AppStore */,
 				D08349382097788A008CFD52 /* Release Fork AppStore */,
-				D06442121E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		D02601E31A55CA2400716290 /* Build configuration list for PBXNativeTarget "Share" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D02601E41A55CA2400716290 /* Debug Hockeyapp */,
+				D02601E41A55CA2400716290 /* Debug */,
 				D083491F20977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B51E5C411500F75970 /* Debug AppStore */,
 				D02601E51A55CA2400716290 /* Release AppStore */,
 				D08349342097788A008CFD52 /* Release Fork AppStore */,
-				D064420E1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		D08805A6156E8F3600311537 /* Build configuration list for PBXProject "Telegraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D08805C2156E8F3600311537 /* Debug Hockeyapp */,
+				D08805C2156E8F3600311537 /* Debug */,
 				D083491D20977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B31E5C411500F75970 /* Debug AppStore */,
 				D08805C3156E8F3600311537 /* Release AppStore */,
 				D08349322097788A008CFD52 /* Release Fork AppStore */,
-				D064420C1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 		D08805C4156E8F3600311537 /* Build configuration list for PBXNativeTarget "Telegraph" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D08805C5156E8F3600311537 /* Debug Hockeyapp */,
+				D08805C5156E8F3600311537 /* Debug */,
 				D083491E20977881008CFD52 /* Debug Fork AppStore */,
 				D018D7B41E5C411500F75970 /* Debug AppStore */,
 				D08805C6156E8F3600311537 /* Release AppStore */,
 				D08349332097788A008CFD52 /* Release Fork AppStore */,
-				D064420D1E4E299800394D5F /* Release Hockeyapp */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = "Release Hockeyapp";
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

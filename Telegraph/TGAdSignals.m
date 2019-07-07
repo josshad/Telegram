@@ -1,6 +1,6 @@
 #import "TGAdSignals.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGTelegramNetworking.h"
 #import "TGDatabase.h"
 #import <SSignalKit/SSignalKit.h>

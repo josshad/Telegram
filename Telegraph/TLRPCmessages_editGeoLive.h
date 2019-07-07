@@ -1,4 +1,4 @@
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @class TLInputPeer;
 @class TLInputGeoPoint;

@@ -5,7 +5,7 @@
 #import "TGDatabase.h"
 #import "TGImageInfo+Telegraph.h"
 #import <libkern/OSAtomic.h>
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import <SSignalKit/SSignalKit.h>
 
 #import "TGRemoteFileSignal.h"

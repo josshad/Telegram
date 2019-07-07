@@ -5,7 +5,7 @@
 #import "TGMessage+Telegraph.h"
 
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TGTelegraph.h"
 #import "TLRPCmessages_editMessage.h"
 

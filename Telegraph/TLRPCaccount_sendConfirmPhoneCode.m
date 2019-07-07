@@ -1,6 +1,6 @@
 #import "TLRPCaccount_sendConfirmPhoneCode.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @implementation TLRPCaccount_sendConfirmPhoneCode
 

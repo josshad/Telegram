@@ -3,7 +3,7 @@
 #import <LegacyComponents/LegacyComponents.h>
 
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TLUpdates+TG.h"
 

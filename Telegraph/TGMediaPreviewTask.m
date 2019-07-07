@@ -10,7 +10,7 @@
 
 #import "TGImageInfo+Telegraph.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #import "TGMediaStoreContext.h"
 

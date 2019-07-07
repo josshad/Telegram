@@ -17,7 +17,7 @@
 #include "TLMetaObject.h"
 #import "TLObject.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 #include <unordered_map>
 

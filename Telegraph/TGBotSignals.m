@@ -7,7 +7,7 @@
 
 #import "TGTelegraph.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLChat$chat.h"
 
 #import "TLUpdates+TG.h"

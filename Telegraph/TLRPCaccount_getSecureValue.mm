@@ -1,6 +1,6 @@
 #import "TLRPCaccount_getSecureValue.h"
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 #import "TLMetaClassStore.h"
 
 

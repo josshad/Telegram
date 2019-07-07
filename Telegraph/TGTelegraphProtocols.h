@@ -9,7 +9,7 @@
 #ifndef Telegraph_TGTelegraphProtocols_h
 #define Telegraph_TGTelegraphProtocols_h
 
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @protocol TGRawHttpActor <NSObject>
 

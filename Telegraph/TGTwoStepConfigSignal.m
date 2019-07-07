@@ -1,7 +1,7 @@
 #import "TGTwoStepConfigSignal.h"
 
 #import "TGTelegramNetworking.h"
-#import "TL/TLMetaScheme.h"
+#import "TLMetaScheme.h"
 
 @implementation TGTwoStepConfigSignal
 
